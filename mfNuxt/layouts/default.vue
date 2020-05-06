@@ -36,7 +36,7 @@
             
     </b-navbar>
         
-    <div>
+    <div class="defaultContainer">
       <nuxt />
     </div>
     
@@ -67,8 +67,14 @@ export default {
 
 
 <style scoped>
+/*.defaultContainer {
+  
+}*/
 .navbar {
   border-bottom: rgba(29, 35, 48, .15) solid 1px;
+}
+.is-active {
+  color:aquamarine;
 }
 
 </style>
