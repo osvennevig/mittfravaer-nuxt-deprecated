@@ -36,18 +36,21 @@
       >
         No other internal dependency
       </card>
+      <heroTopp/>
     </div>
   </section>
 </template>
 
 <script>
 import Card from '~/components/Card'
+import heroTopp from '~/components/heroTopp'
 
 export default {
   name: 'HomePage',
 
   components: {
-    Card
+    Card,
+    heroTopp
   }
 }
 </script>
