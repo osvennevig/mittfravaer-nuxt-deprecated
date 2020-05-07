@@ -46,7 +46,7 @@ export default {
 
 .footer {
   /* margin-top: 40px; */
-  background-color: #efefef;
+  background-color:whitesmoke;
   padding-bottom: 3em;
 }
 .supportStor {

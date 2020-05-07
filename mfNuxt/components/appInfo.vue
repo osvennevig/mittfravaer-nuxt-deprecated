@@ -1,6 +1,6 @@
 <template>
-    <div class="heroTopp">
-        <section class="sectionUtreg">
+    <div class="appInfo">
+        <section class="section">
              <h1 class="titleBig">
                Beregn fraværet ditt på sekunder.
              </h1>
@@ -12,12 +12,9 @@
 </template>
 
 <style scoped>
-.heroTopp {
+.appInfo {
     background-color:rgb(255, 255, 255);
-    padding: 1rem 1rem;
-}
-.sectionUtreg {
-  padding: 3rem 1.5rem;
+    padding: 1.5rem 1.5rem;
 }
 .titleBig {
   color: #7442BB;
