@@ -18,22 +18,26 @@
     <p class ="supportStor"><strong> <a href="#">support@mainly.no </a></strong></p>
   </div>
   <div class="column">
-    <b-icon
-      pack="fab"
+
+    <a href="https://facebook.com/mainly.no">
+      <b-icon
       icon="facebook"
-      size="is-large">
-    </b-icon>
-    <b-icon
-      pack="fab"
+      size="is-large"
+      />
+    </a>
+
+    <a href="https://instagram.com/mittfravaer">
+      <b-icon
       icon="instagram"
-      size="is-large">
-    </b-icon>
-    <p>
-    <font-awesome-icon 
-    pack="fas"
-    icon="laptop" 
-    size="4x"/>
-    </p>
+      size="is-large"
+      />
+    </a>
+
+<!--
+     <font-awesome-icon 
+    :icon="['fab', 'instagram']"
+     size="5x"/>
+-->
 
   </div>
 </div>
