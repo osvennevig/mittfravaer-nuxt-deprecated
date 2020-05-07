@@ -137,7 +137,7 @@ export default {
   flex-grow: 1;
   -ms-flex-negative: 0;
   flex-shrink: 0;
-  padding: 2rem 2rem;
+  padding: 1rem 1rem;
 }
 
 </style>

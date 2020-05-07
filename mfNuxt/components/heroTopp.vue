@@ -14,7 +14,6 @@
 <style scoped>
 .heroTopp {
     background-color:rgb(255, 255, 255);
-    padding: 1rem 1rem;
 }
 .sectionUtreg {
   padding: 3rem 1.5rem;
