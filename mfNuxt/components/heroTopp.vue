@@ -20,7 +20,7 @@
 .titleBig {
   color: #7442BB;
   font-size: 2.5rem;
-  font-weight: 600;
+  font-weight: 800;
   line-height: 1.125;
   word-break: break-word;
   padding-bottom:5px;

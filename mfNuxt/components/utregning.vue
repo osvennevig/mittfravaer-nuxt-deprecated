@@ -4,6 +4,41 @@
     <section class="sectionUtreg">
         <div class="hero-body-Utreg">
       <div class="container">
+           <div class="columns is-mobile is-centered">
+                <div class="column-desktop-only is-half">
+            
+           <div class="column">
+                  <div class="columnSum">
+                      <h1 class="sumh1">Din prosent: <br>{{ bmiCalculation }}</h1>
+                  </div>
+           </div>
+
+           <div class="column">
+              <div class="columnUtreg">
+        
+                  <h1 class="udokh1">Antall udokumenterte timer: </h1>
+                  <b-field>
+                  <b-numberinput size="is-medium" v-model="udok" min="1">
+                  </b-numberinput>
+                  </b-field>
+
+                  <h1 class="fagh1">Antall timer i faget i uken: </h1>
+                  <b-field>
+                  <b-numberinput size="is-medium" v-model="fag" min="1">
+                  </b-numberinput>
+                  </b-field>
+              </div>
+           </div> 
+             </div>
+           
+              </div> 
+</div>
+</div>
+</section>
+
+    <section class="sectionUtreg">
+        <div class="hero-body-Utreg">
+      <div class="container">
            <div class="columns">
             
            <div class="column">
@@ -34,6 +69,7 @@
 </div>
 </div>
 </section>
+
 
   </div>
   </div>
@@ -73,13 +109,13 @@ export default {
   color:#FFF;
 }
 .udokh1 {
-  font-size: 1.8em;
+  font-size: 25px;
   font-weight: 500;
   color:#4a4a4a;
   text-align: left;
 }
 .fagh1 {
-  font-size: 1.8em;
+  font-size: 25px;
   font-weight: 500;
   margin-top: 1em;
   color:#4a4a4a;
@@ -87,7 +123,7 @@ export default {
 }
 .sumh1 {
   font-size: 3em;
-  font-weight: 600;
+  font-weight: 800;
   color:#FFF;
 }
 
