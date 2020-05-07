@@ -7,14 +7,9 @@
       </b-navbar-item>
     </template>
     <template slot="start">
-      <b-navbar-item>
+      <b-navbar-item-s>
         Lynrask utregning av udokumenter fravær
-      </b-navbar-item>
-
-
-      <b-navbar-item tag="router-link" :to="{ path: '/inspire' }" exact-active-class="is-active">
-        inspire
-      </b-navbar-item>
+      </b-navbar-item-s>
 
     </template>
 
@@ -79,6 +74,13 @@ export default {
 }
 .is-active {
   color:aquamarine;
+}
+b-navbar-item-s {
+  color: #4a4a4a;
+  line-height: 1.5;
+  padding: 0.5rem 0.75rem;
+  position: relative;
+  padding-top: 15px;
 }
 
 </style>

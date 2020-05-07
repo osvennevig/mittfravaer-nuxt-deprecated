@@ -1,4 +1,5 @@
 <template>
+<div>
     <div class="heroTopp">
         <section class="section">
             <div class="hero-body">
@@ -11,11 +12,37 @@
             </div>
         </section>
     </div>
+    <section class="section">
+            <div class="container">
+             <p class="subtitleLeft">
+               MittFravær gjør det enklere å finne ut hvor mange prosent fravær man har i det enkelte faget. I tillegg til å beregne hvor mye fravær man kan ha før man når 10 prosenten.
+
+Tjenesten er gratis å bruke, og er laget av kvitér UB ved Dahlske videregående skole. Den driftes nå av selskapet Mainly.
+
+Reklamebannere er satt inn for å kunne finansiere produktet og drive med videreutvikling.
+             </p>
+            </div>
+        </section>
+        <footerBunn/>
+</div>
 </template>
+
+<script>
+import footerBunn from '~/components/footerBunn'
+
+export default {
+  name: 'om-tjenesten',
+
+  components: {
+    footerBunn,
+  }
+}
+</script>
+
 
 <style scoped>
 .heroTopp {
-    background-color:rgb(255, 255, 255);
+    background-color: whitesmoke;
 }
 .titleBig {
   color: #7442BB;
@@ -31,5 +58,8 @@
   font-weight: 400;
   line-height: 1.25;
   word-break: break-word;
+}
+.subtitleLeft {
+  text-align: left;
 }
 </style>
