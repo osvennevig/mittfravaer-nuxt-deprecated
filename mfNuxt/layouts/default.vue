@@ -67,9 +67,9 @@ export default {
 
 
 <style scoped>
-/*.defaultContainer {
-  
-}*/
+.defaultContainer {
+  margin: auto;
+}
 .navbar {
   border-bottom: rgba(29, 35, 48, .15) solid 1px;
 }
