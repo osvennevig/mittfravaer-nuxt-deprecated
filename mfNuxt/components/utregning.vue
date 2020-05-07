@@ -1,8 +1,8 @@
 <template>
   <div id="app">
   <div class="utregningContainer">
-    <section class="section">
-        <div class="hero-body">
+    <section class="sectionUtreg">
+        <div class="hero-body-Utreg">
       <div class="container">
            <div class="columns">
             
@@ -107,6 +107,18 @@ export default {
     border-radius: 10px;
     margin-bottom: -0.75rem;
     padding: 20px;
-    
+    margin-bottom: 20px;
 }
+.sectionUtreg {
+    padding: 3rem 1.5rem;
+}
+.hero-body-Utreg {
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    padding: 1.5rem 1.5rem;
+}
+
 </style>
