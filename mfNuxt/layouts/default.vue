@@ -14,8 +14,9 @@
                Lynrask utregning av udokumenter fravær
             </b-navbar-item>
 
-            <b-navbar-item tag="router-link" :to="{ path: '/' }" exact-active-class="is-active">
-               index
+            
+            <b-navbar-item tag="router-link" :to="{ path: '/inspire' }" exact-active-class="is-active">
+            inspire
             </b-navbar-item>
            
         </template>
@@ -40,7 +41,6 @@
         </div>
     </div>
     
-    </div>
 </template>
 
 
