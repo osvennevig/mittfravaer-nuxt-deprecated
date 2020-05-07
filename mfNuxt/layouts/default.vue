@@ -26,7 +26,7 @@
             Rapporter en feil
           </b-button>
           <b-button class="button is-primary" icon-left="fas fa-info-circle" tag="router-link"
-            :to="{ path: '/inspire' }" exact-active-class="is-active">
+            :to="{ path: '/om-tjenesten' }" exact-active-class="is-active">
             Om tjenesten
           </b-button>
         </div>
@@ -54,9 +54,9 @@ export default {
           to: { name: 'index' }
         },
         {
-          title: 'Inspire',
+          title: 'Om Tjenesten',
           icon: 'lightbulb',
-          to: { name: 'inspire' }
+          to: { name: 'om-tjenesten' }
         }
       ]
     }

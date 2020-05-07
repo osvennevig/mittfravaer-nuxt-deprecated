@@ -1,4 +1,4 @@
-
+import webpack from 'webpack'
 export default {
   mode: 'universal',
   /*
@@ -52,7 +52,11 @@ export default {
     /*
     ** You can extend webpack config here
     */
+   plugins: [
+    new webpack.IgnorePlugin(/^\.\/locale$/, /moment$/)
+  ],
     extend (config, ctx) {
+    
     }
   }
 }

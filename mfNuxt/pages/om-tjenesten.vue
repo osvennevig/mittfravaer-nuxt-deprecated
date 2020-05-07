@@ -3,10 +3,10 @@
         <section class="section">
             <div class="hero-body">
              <h1 class="titleBig">
-               Beregn fraværet ditt på sekunder.
+               Om Tjenesten
              </h1>
              <h2 class="subtitleBig">
-               Gjelder for høsten 2019 og våren 2020
+               Litt informasjon om MittFravær
              </h2>
             </div>
         </section>
