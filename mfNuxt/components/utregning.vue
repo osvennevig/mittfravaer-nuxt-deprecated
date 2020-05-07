@@ -9,7 +9,8 @@
 
                 <div class="column">
                   <div class="columnSum">
-                    <h1 class="sumh1">Din prosent: <br>{{ bmiCalculation }}</h1>
+                    <h1 class="sumh1"> 
+                       <span style="font-weight: 700; font-size: .8em;"> Din prosent er: </span> <br>{{ bmiCalculation }}</h1>
                   </div>
                 </div>
 
@@ -93,9 +94,16 @@ export default {
 }
 
 .sumh1 {
-  font-size: 3em;
+  font-size: 2.8em;
   font-weight: 800;
   color: #FFF;
+  line-height: 1.25;
+}
+.sumh2 {
+  font-size: 2.8em;
+  font-weight: 800;
+  color: #FFF;
+  line-height: 1.25;
 }
 
 .columnUtreg {
@@ -116,8 +124,6 @@ export default {
   border-radius: 10px;
   margin-bottom: -0.75rem;
   margin-bottom: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
   padding-bottom: 20px;
 }
 
