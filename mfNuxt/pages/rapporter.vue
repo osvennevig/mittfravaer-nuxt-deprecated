@@ -3,10 +3,10 @@
     <div class="heroTopp">
         <section class="section">
              <h1 class="titleBig">
-               Om Tjenesten
+               Rapporter en feil
              </h1>
              <h2 class="subtitleBig">
-               Litt informasjon om MittFravær
+              Informasjon om rapportering
              </h2>
         </section>
     </div>
@@ -27,7 +27,7 @@ Reklamebannere er satt inn for å kunne finansiere produktet og drive med videre
 import footerBunn from '~/components/footerBunn'
 
 export default {
-  name: 'Om tjenesten',
+  name: 'Rapporter',
 
   components: {
     footerBunn,

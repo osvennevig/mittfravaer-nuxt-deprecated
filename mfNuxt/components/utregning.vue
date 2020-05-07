@@ -1,77 +1,42 @@
 <template>
   <div id="app">
-  <div class="utregningContainer">
-    <section class="sectionUtreg">
+    <div class="utregningContainer">
+      <section class="sectionUtreg">
         <div class="hero-body-Utreg">
-      <div class="container">
-           <div class="columns is-mobile is-centered">
-                <div class="column-desktop-only is-half">
-            
-           <div class="column">
+          <div class="container">
+            <div class="columns is-mobile is-centered">
+              <div class="column-desktop-only is-half">
+
+                <div class="column">
                   <div class="columnSum">
-                      <h1 class="sumh1">Din prosent: <br>{{ bmiCalculation }}</h1>
+                    <h1 class="sumh1">Din prosent: <br>{{ bmiCalculation }}</h1>
                   </div>
-           </div>
+                </div>
 
-           <div class="column">
-              <div class="columnUtreg">
-        
-                  <h1 class="udokh1">Antall udokumenterte timer: </h1>
-                  <b-field>
-                  <b-numberinput size="is-medium" v-model="udok" min="1">
-                  </b-numberinput>
-                  </b-field>
+                <div class="column">
+                  <div class="columnUtreg">
 
-                  <h1 class="fagh1">Antall timer i faget i uken: </h1>
-                  <b-field>
-                  <b-numberinput size="is-medium" v-model="fag" min="1">
-                  </b-numberinput>
-                  </b-field>
-              </div>
-           </div> 
-             </div>
-           
-              </div> 
-</div>
-</div>
-</section>
+                    <h1 class="udokh1">Antall udokumenterte fraværstimer: </h1>
+                    <b-field>
+                      <b-numberinput size="is-medium" v-model="udok" min="1">
+                      </b-numberinput>
+                    </b-field>
 
-    <section class="sectionUtreg">
-        <div class="hero-body-Utreg">
-      <div class="container">
-           <div class="columns">
-            
-           <div class="column">
-                  <div class="columnSum">
-                      <h1 class="sumh1">Din prosent: <br>{{ bmiCalculation }}</h1>
+                    <h1 class="fagh1">Antall timer i uken for gjeldende fag: </h1>
+                    <b-field>
+                      <b-numberinput size="is-medium" v-model="fag" min="1">
+                      </b-numberinput>
+                    </b-field>
                   </div>
-           </div>
-
-           <div class="column">
-              <div class="columnUtreg">
-        
-                  <h1 class="udokh1">Antall udokumenterte timer: </h1>
-                  <b-field>
-                  <b-numberinput size="is-medium" v-model="udok" min="1">
-                  </b-numberinput>
-                  </b-field>
-
-                  <h1 class="fagh1">Antall timer i faget i uken: </h1>
-                  <b-field>
-                  <b-numberinput size="is-medium" v-model="fag" min="1">
-                  </b-numberinput>
-                  </b-field>
+                </div>
               </div>
-                  
-             </div>
-           
-              </div> 
-</div>
-</div>
-</section>
 
+            </div>
+          </div>
+        </div>
+      </section>
 
-  </div>
+    </div>
   </div>
 </template>
 
@@ -105,58 +70,68 @@ export default {
 
 <style scoped>
 .utregningContainer {
-  background-color:#7442bb;
-  color:#FFF;
+  background-color: #7442bb;
+  color: #FFF;
 }
+
 .udokh1 {
-  font-size: 25px;
+  font-size: 1.55em;
   font-weight: 500;
-  color:#4a4a4a;
+  color: #292929;
   text-align: left;
+  margin-bottom: 10px;
 }
+
 .fagh1 {
-  font-size: 25px;
+  /*font-size: 25px;*/
+  font-size: 1.55em;
   font-weight: 500;
   margin-top: 1em;
-  color:#4a4a4a;
+  color: #292929;
   text-align: left;
+  margin-bottom: 10px;
 }
+
 .sumh1 {
   font-size: 3em;
   font-weight: 800;
-  color:#FFF;
+  color: #FFF;
 }
 
 .columnUtreg {
-    margin-left: -0.75rem;
-    margin-right: -0.75rem;
-    margin-top: -0.75rem;
-    background-color: #fff;
-    border-radius: 10px;
-    margin-bottom: -0.75rem;
-    padding: 1.5em;
+  margin-left: -0.75rem;
+  margin-right: -0.75rem;
+  margin-top: -0.75rem;
+  background-color: #fff;
+  border-radius: 10px;
+  margin-bottom: -0.75rem;
+  /* padding: 1.5em;*/
+  padding: 2.5em;
 }
+
 .columnSum {
-    margin-left: -0.75rem;
-    margin-right: -0.75rem;
-    margin-top: -0.75rem;
-    border-radius: 10px;
-    margin-bottom: -0.75rem;
-    margin-bottom: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 20px;
+  margin-left: -0.75rem;
+  margin-right: -0.75rem;
+  margin-top: -0.75rem;
+  border-radius: 10px;
+  margin-bottom: -0.75rem;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
 }
+
 .sectionUtreg {
-    padding: 3rem 1.5rem;
+  padding: 3rem 1.5rem;
 }
+
 .hero-body-Utreg {
-    -webkit-box-flex: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
-    -ms-flex-negative: 0;
-    flex-shrink: 0;
-    padding: 2rem 2rem;
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  padding: 2rem 2rem;
 }
 
 </style>

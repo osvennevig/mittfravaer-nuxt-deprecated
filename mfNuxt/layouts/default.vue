@@ -16,11 +16,11 @@
     <template slot="end">
       <b-navbar-item tag="div">
         <div class="buttons">
-          <b-button class="button is-light" icon-left="fas fa-bug" tag="router-link" :to="{ path: '/inspire' }"
+          <b-button class="button is-light" icon-left="bug" tag="router-link" :to="{ path: '/rapporter' }"
             exact-active-class="is-active">
             Rapporter en feil
           </b-button>
-          <b-button class="button is-primary" icon-left="fas fa-info-circle" tag="router-link"
+          <b-button class="button is-primary" icon-left="alert-circle" tag="router-link"
             :to="{ path: '/om-tjenesten' }" exact-active-class="is-active">
             Om tjenesten
           </b-button>

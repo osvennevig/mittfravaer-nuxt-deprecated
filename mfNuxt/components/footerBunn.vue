@@ -8,9 +8,7 @@
         <strong>MittFravær</strong> av <a href="https://mainly.no">Mainly</a>
       </p>
       <p>
-        <font-awesome-icon icon="spinner" size="xs" />
         Org.nr. 922 878 889
-        
       </p>
     </div>
   </div>
@@ -32,12 +30,6 @@
       size="is-large"
       />
     </a>
-
-<!--
-     <font-awesome-icon 
-    :icon="['fab', 'instagram']"
-     size="5x"/>
--->
 
   </div>
 </div>

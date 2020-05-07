@@ -12,7 +12,7 @@ import footerBunn from '~/components/footerBunn'
 import utregning from '~/components/utregning'
 
 export default {
-  name: 'HomePage',
+  name: 'Forsiden',
 
   components: {
     heroTopp,
