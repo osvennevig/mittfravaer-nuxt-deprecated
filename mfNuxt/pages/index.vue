@@ -1,21 +1,22 @@
 <template>
-  <section class="section">
     <div>
       <heroTopp/>
+      <footerBunn/>
     </div>
-  </section>
 </template>
 
 <script>
 import Card from '~/components/Card'
 import heroTopp from '~/components/heroTopp'
+import footerBunn from '~/components/footerBunn'
 
 export default {
   name: 'HomePage',
 
   components: {
     Card,
-    heroTopp
+    heroTopp,
+    footerBunn,
   }
 }
 </script>

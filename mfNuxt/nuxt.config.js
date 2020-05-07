@@ -32,8 +32,9 @@ export default {
   /*
   ** Nuxt.js dev-modules
   */
-  buildModules: [
-  ],
+ buildModules: [
+],
+
   /*
   ** Nuxt.js modules
   */
@@ -41,6 +42,7 @@ export default {
     // Doc: https://buefy.github.io/#/documentation
     'nuxt-buefy',
   ],
+
   /*
   ** Build configuration
   */

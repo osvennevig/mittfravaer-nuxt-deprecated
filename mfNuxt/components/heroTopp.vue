@@ -15,6 +15,6 @@
 
 <style scoped>
 .heroTopp {
-    background-color:#FFF;
+    background-color:rgb(0, 0, 0);
 }
 </style>
