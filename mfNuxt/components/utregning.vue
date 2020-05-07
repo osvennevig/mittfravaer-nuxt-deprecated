@@ -98,7 +98,7 @@ export default {
     background-color: #fff;
     border-radius: 10px;
     margin-bottom: -0.75rem;
-    padding: 20px;
+    padding: 1.5em;
 }
 .columnSum {
     margin-left: -0.75rem;
@@ -106,8 +106,10 @@ export default {
     margin-top: -0.75rem;
     border-radius: 10px;
     margin-bottom: -0.75rem;
-    padding: 20px;
     margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
 }
 .sectionUtreg {
     padding: 3rem 1.5rem;
@@ -118,7 +120,7 @@ export default {
     flex-grow: 1;
     -ms-flex-negative: 0;
     flex-shrink: 0;
-    padding: 1.5rem 1.5rem;
+    padding: 2rem 2rem;
 }
 
 </style>
