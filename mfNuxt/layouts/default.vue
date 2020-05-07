@@ -10,13 +10,12 @@
             </b-navbar-item>
         </template>
         <template slot="start">
-            <b-navbar-item tag="router-link" :to="{ path: '/' }" exact-active-class="is-active">
-                
-               index
-              
+            <b-navbar-item>
+               Lynrask utregning av udokumenter fravær
             </b-navbar-item>
-            <b-navbar-item tag="router-link" :to="{ path: '/inspire' }" exact-active-class="is-active">
-            inspire
+
+            <b-navbar-item tag="router-link" :to="{ path: '/' }" exact-active-class="is-active">
+               index
             </b-navbar-item>
            
         </template>
@@ -38,6 +37,7 @@
         
     <div class="defaultContainer">
       <nuxt />
+        </div>
     </div>
     
     </div>
@@ -68,7 +68,12 @@ export default {
 
 <style scoped>
 .defaultContainer {
-  margin: auto;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 0px;
 }
 .navbar {
   border-bottom: rgba(29, 35, 48, .15) solid 1px;
