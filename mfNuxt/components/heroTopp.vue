@@ -16,7 +16,7 @@
     background-color:rgb(255, 255, 255);
 }
 .sectionUtreg {
-  padding: 3rem 1.5rem;
+  padding: 3.5rem 1.5rem;
 }
 .titleBig {
   color: #7442BB;

@@ -4,17 +4,15 @@
       <section class="sectionUtreg">
         <div class="hero-body-Utreg">
           <div class="container">
+    
             <div class="columns is-mobile is-centered">
               <div class="column-desktop-only is-half">
 
                 <div class="column">
-                  <div class="columnSum">
+                   <div class="columnSum">
                     <h1 class="sumh1"> 
                        <span style="font-weight: 700; font-size: .8em;"> Din prosent er: </span> <br>{{ bmiCalculation }}</h1>
                   </div>
-                </div>
-
-                <div class="column">
                   <div class="columnUtreg">
 
                     <h1 class="udokh1">Antall udokumenterte fraværstimer: </h1>
@@ -31,9 +29,23 @@
                   </div>
                 </div>
               </div>
+            </div>
+
+        <!--    <div class="columns is-mobile is-centered">
+              <div class="column-desktop-only is-half">
+              </div>
+              
+               <div class="column">
+                <div class="columnForklaring">
+                    <h1 class="forklaringh1">Dette er en kort forklaring på at kalkulatoren regner ut basert på et helt år (to semestere) Derfor blir prosenten lavere.</h1>
+                </div>
+               </div>
+
+              </div> -->
 
             </div>
-          </div>
+
+         
         </div>
       </section>
 
@@ -74,23 +86,33 @@ export default {
   background-color: #7442bb;
   color: #FFF;
 }
+.forklaringh1 {
+  font-size: 1.2em;
+  font-weight: 500;
+  color: #292929;
+  text-align: center;
+  margin-bottom: 10px;
+  line-height: 1.25;
+}
 
 .udokh1 {
-  font-size: 1.55em;
+  font-size: 1.5em;
   font-weight: 500;
   color: #292929;
   text-align: left;
   margin-bottom: 10px;
+  line-height: 1.25;
 }
 
 .fagh1 {
   /*font-size: 25px;*/
-  font-size: 1.55em;
+  font-size: 1.5em;
   font-weight: 500;
   margin-top: 1em;
   color: #292929;
   text-align: left;
   margin-bottom: 10px;
+  line-height: 1.25;
 }
 
 .sumh1 {
@@ -98,21 +120,28 @@ export default {
   font-weight: 800;
   color: #FFF;
   line-height: 1.25;
-}
-.sumh2 {
-  font-size: 2.8em;
-  font-weight: 800;
-  color: #FFF;
-  line-height: 1.25;
+  margin-bottom: 10px;
 }
 
 .columnUtreg {
   margin-left: -0.75rem;
   margin-right: -0.75rem;
+  margin-bottom: -0.75rem;
   margin-top: -0.75rem;
   background-color: #fff;
   border-radius: 10px;
+  
+  /* padding: 1.5em;*/
+  padding: 2.5em;
+}
+
+.columnForklaring {
+  /*margin-left: -0.75rem;
+  margin-right: -0.75rem;
   margin-bottom: -0.75rem;
+  margin-top: -0.75rem;*/
+  background-color: whitesmoke;
+  border-radius: 10px;
   /* padding: 1.5em;*/
   padding: 2.5em;
 }
@@ -128,7 +157,7 @@ export default {
 }
 
 .sectionUtreg {
-  padding: 3rem 1.5rem;
+  padding: 3.5rem 1.5rem;
 }
 
 .hero-body-Utreg {
