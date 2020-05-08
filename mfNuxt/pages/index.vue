@@ -2,6 +2,7 @@
     <div>
       <heroTopp/>
       <utregning/>
+      <appInfo/>
       <footerBunn/>
     </div>
 </template>
@@ -10,6 +11,7 @@
 import heroTopp from '~/components/heroTopp'
 import footerBunn from '~/components/footerBunn'
 import utregning from '~/components/utregning'
+import appInfo from '~/components/appInfo'
 
 export default {
   name: 'Forsiden',
@@ -18,6 +20,7 @@ export default {
     heroTopp,
     utregning,
     footerBunn,
+    appInfo,
   }
 }
 </script>

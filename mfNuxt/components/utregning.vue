@@ -30,7 +30,7 @@
                 </div>
               </div>
             </div>
-
+ <p class="bd-notification is-primary">Dette er en kort forklaring på at kalkulatoren regner ut basert på et helt år (to semestere) <br>Derfor blir prosenten lavere.</p>
         <!--    <div class="columns is-mobile is-centered">
               <div class="column-desktop-only is-half">
               </div>
