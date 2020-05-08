@@ -27,7 +27,7 @@ Reklamebannere er satt inn for å kunne finansiere produktet og drive med videre
 import footerBunn from '~/components/footerBunn'
 
 export default {
-  name: 'Om tjenesten',
+  name: 'om-tjenesten',
 
   components: {
     footerBunn,

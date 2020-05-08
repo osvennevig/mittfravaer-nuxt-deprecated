@@ -5,7 +5,7 @@
           <div class="hero">
              
              <div class="columns is-vcentered">
-  <div class="column is-8">
+  <div class="column is-half">
     <h1 class="titleBig">
                Nå tilgjengelig for iPhone og Android.
              </h1>
@@ -13,7 +13,7 @@
                Den nye MittFravær appen for iPhone lar deg holde oversikt over opptil 6 fag samtidig gjennom hele semesteret. På Android kommer vi snart med en større oppdatering.
              </h2>
   </div>
-  <div class="column">
+  <div class="column is-half">
     <img src="https://i.picsum.photos/id/40/800/1200.jpg" fluid alt="Responsive image"><img>
   </div>
 </div>
