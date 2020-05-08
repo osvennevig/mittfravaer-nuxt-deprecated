@@ -39,7 +39,6 @@ export default {
 <style scoped>
 .heroTopp {
     background-color: whitesmoke;
-    
 }
 .titleBig {
   color: #7442BB;
