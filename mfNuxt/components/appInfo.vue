@@ -14,7 +14,7 @@
              </h2>
   </div>
   <div class="column">
-    <img src="https://i.picsum.photos/id/40/1024/800.jpg" fluid alt="Responsive image"><img>
+    <img src="https://i.picsum.photos/id/40/800/1200.jpg" fluid alt="Responsive image"><img>
   </div>
 </div>
           </div>
