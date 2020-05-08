@@ -3,13 +3,12 @@
         <section class="section">
           <div class="container">
           <div class="hero">
-             <h1 class="titleBig">
-               Nå tilgjengelig for iPhone og Android.
-             </h1>
-            
-
+             
              <div class="columns is-vcentered">
   <div class="column is-8">
+    <h1 class="titleBig">
+               Nå tilgjengelig for iPhone og Android.
+             </h1>
     <h2 class="subtitleBigLeft">
                Den nye MittFravær appen for iPhone lar deg holde oversikt over opptil 6 fag samtidig gjennom hele semesteret. På Android kommer vi snart med en større oppdatering.
              </h2>
