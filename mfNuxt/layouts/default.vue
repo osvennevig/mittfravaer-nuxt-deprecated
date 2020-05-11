@@ -83,4 +83,18 @@ b-navbar-item-s {
   padding-top: 15px;
 }
 
+@media screen and (min-width: 1024px) {
+.navbar-item img {
+/*max-height: 1.75rem;*/
+max-height: 2.10rem;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+.navbar-item img {
+/*max-height: 1.75rem;*/
+max-height: 1.75rem;
+  }
+}
+
 </style>
