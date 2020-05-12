@@ -8,7 +8,7 @@
     </template>
     <template slot="start">
       <b-navbar-item-s>
-        Lynrask utregning av udokumenter fravær
+        Lynrask utregning av udokumentert fravær
       </b-navbar-item-s>
        <b-navbar-item-s>
         <b-tag type="is-success" outlined>Nytt design!</b-tag>

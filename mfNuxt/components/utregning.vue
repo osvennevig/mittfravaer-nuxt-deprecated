@@ -30,7 +30,7 @@
                 </div>
               </div>
             </div>
- <p class="bd-notification is-primary">Kalkulatoren tar for seg ett helt år (høst + vår). <br>Derfor blir prosenten lavere enn den ofte vises i skolesystemene.</p>
+ <p class="bd-notification is-primary">Kalkulatoren tar for seg ett helt år (høst + vår). <br>Derfor kan prosenten bli lavere enn den ofte vises i skolesystemene.</p>
         <!--    <div class="columns is-mobile is-centered">
               <div class="column-desktop-only is-half">
               </div>

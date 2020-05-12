@@ -14,10 +14,10 @@
                   semesteret. På Android kommer vi snart med en større oppdatering.
                 </h2>
               <div class="appStoresBtnLeft">
-                 <a href="https://apps.apple.com/no/app/mittfravær-beregn-fravær/id1495639218?l=nb"> <b-button type="is-dark" size="x1">Last ned fra App Store</b-button></a>
+                 <a href="https://apps.apple.com/no/app/mittfravær-beregn-fravær/id1495639218?l=nb"> <b-button style="background-color:#FF7052; color: #fff;" size="is-medium">Last ned fra App Store</b-button></a>
               </div>
               <div class="appStoresBtnLeft"> 
-                 <a href="https://play.google.com/store/apps/details?id=com.mainly.mittfravaer"> <b-button type="is-dark" size="x1">Last ned fra Google Play</b-button></a>
+                 <a href="https://play.google.com/store/apps/details?id=com.mainly.mittfravaer"> <b-button style="background-color:#FF7052; color: #fff;" size="is-medium">Last ned fra Google Play</b-button></a>
               </div>
               </div>
               <div class="column is-half">

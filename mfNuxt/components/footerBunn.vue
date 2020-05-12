@@ -11,7 +11,7 @@
         </div>
       </div>
       <div class="column is-one-third">
-        <p class="supportStor"><strong> <a href="#">support@mainly.no </a></strong></p>
+        <p class="supportStor"><strong> <a href="mailto:support@mainly.no">support@mainly.no </a></strong></p>
       </div>
       <div class="column is-one-third">
         <div class="column">

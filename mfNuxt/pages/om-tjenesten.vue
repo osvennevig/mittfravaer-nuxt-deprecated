@@ -44,6 +44,18 @@
           </p>
         </footer>
       </div>
+      <section class="section">
+      <div class="container">
+    <div class="columns">
+    <div class="column">
+       <a href="https://www.nrk.no/sorlandet/vil-gi-bedre-fravaerskontroll-1.14305223"> <b-button style="background-color:#FF7052; color: #fff;" size="is-medium">NRK Sørlandet - TV reportasje 21.11</b-button></a>
+    </div>
+      <div class="column">
+       <a href="https://radio.nrk.no/serie/marius/MYNF47010618/21-11-2018?fbclid=IwAR0Dk0xqfg-96TYUx2Kdyf2_5LGkNo-Qll6aMsPar7q21a2mHowjOrItoCY#t=1h59m42.36s"> <b-button style="background-color:#FF7052; color: #fff;" size="is-medium">NRK P3 - Radio P3nyheter 16:00</b-button></a>
+    </div>
+      </div>
+      </div>
+</section>
 
     </div>
   </section>
@@ -69,9 +81,16 @@ export default {
 .heroTopp {
     background-color: whitesmoke;
 }
+.card-content {
+  background-color: #7442BB;
+}
+.subtitle {
+  color: whitesmoke;
+  font-size: 1.2rem;
+}
 .titleBigQuote {
-  color: #7442BB;
-  font-size: 2rem;
+  color: #fff;
+  font-size: 1.6rem;
   font-weight: 600;
   line-height: 1.25;
   word-break: break-word;

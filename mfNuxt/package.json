@@ -1,7 +1,7 @@
 {
-  "name": "first-nux-proj",
+  "name": "MittFravær",
   "version": "1.0.0",
-  "description": "bare en test",
+  "description": "Beregn fraværet ditt på sekunder.",
   "author": "stamfar",
   "private": true,
   "scripts": {
