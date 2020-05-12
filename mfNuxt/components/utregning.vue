@@ -30,7 +30,7 @@
                 </div>
               </div>
             </div>
- <p class="bd-notification is-primary">Dette er en kort forklaring på at kalkulatoren regner ut basert på et helt år (to semestere) <br>Derfor blir prosenten lavere.</p>
+ <p class="bd-notification is-primary">Kalkulatoren tar for seg ett helt år (høst + vår). <br>Derfor blir prosenten lavere enn den ofte vises i skolesystemene.</p>
         <!--    <div class="columns is-mobile is-centered">
               <div class="column-desktop-only is-half">
               </div>
@@ -69,11 +69,17 @@ export default {
             var bmi = udok / (fag *38);
             
             if (bmi < 3) {
-              return  bmi.toFixed(2) + " 😍🙌🏻";
+              return  bmi.toFixed(2) + " 😍🤓";
             } else if (bmi >= 3 && bmi < 5) {
               return  bmi.toFixed(2) + " 🤨🥱";
-            } else if (bmi >= 5) {
-              return  bmi.toFixed(2) + " 🤬🤯";
+            } else if (bmi >= 5 && bmi < 7) {
+              return  bmi.toFixed(2) + " 😫😩";
+            } else if (bmi >= 7 && bmi < 9) {
+              return  bmi.toFixed(2) + " 😭🥺";
+            } else if (bmi >= 9 && bmi < 15) {
+              return  bmi.toFixed(2) + " 😭🥺";
+            } else if (bmi >= 15) {
+              return  " wtf sorry as... 💩 Sonans?";
             }
             return "Juster på bryterne for å regne ut";
           }

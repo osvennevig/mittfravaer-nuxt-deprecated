@@ -1,25 +1,26 @@
 <template>
     <div class="appInfo">
-        <section class="section">
-          <div class="container">
+      <section class="section">
+        <div class="container">
           <div class="hero">
-             
-             <div class="columns is-vcentered">
-  <div class="column is-half">
-    <h1 class="titleBig">
-               Nå tilgjengelig for iPhone og Android.
-             </h1>
-    <h2 class="subtitleBigLeft">
-               Den nye MittFravær appen for iPhone lar deg holde oversikt over opptil 6 fag samtidig gjennom hele semesteret. På Android kommer vi snart med en større oppdatering.
-             </h2>
-  </div>
-  <div class="column is-half">
-    <img src="https://i.picsum.photos/id/40/800/1200.jpg" fluid alt="MittFravær App"><img>
-  </div>
-</div>
+
+            <div class="columns is-vcentered">
+              <div class="column is-half">
+                <h1 class="titleBig">
+                  Nå tilgjengelig som app for iPhone og Android.
+                </h1>
+                <h2 class="subtitleBigLeft">
+                  Den nye MittFravær appen for iPhone lar deg holde oversikt over opptil 6 fag samtidig gjennom hele
+                  semesteret. På Android kommer vi snart med en større oppdatering.
+                </h2>
+              </div>
+              <div class="column is-half">
+                <img class="appInfoIMG" src="~assets/MF-Android-ios.png" alt="MittFravær App"><img>
+              </div>
+            </div>
           </div>
-</div>
-        </section>
+        </div>
+      </section>
     </div>
 </template>
 
@@ -39,10 +40,20 @@
 }
 .subtitleBigLeft {
   color: #4a4a4a;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   font-weight: 400;
   line-height: 1.25;
   word-break: break-word;
   text-align: left;
+}
+.appInfoIMG {
+  max-height: 800px;
+  width: auto;
+}
+@media (min-width: 1216px) {
+.column {
+padding-left: 50px;
+padding-right: 50px;
+}
 }
 </style>

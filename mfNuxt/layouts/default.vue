@@ -10,16 +10,22 @@
       <b-navbar-item-s>
         Lynrask utregning av udokumenter fravær
       </b-navbar-item-s>
+       <b-navbar-item-s>
+        <b-tag type="is-success" outlined>Nytt design!</b-tag>
+      </b-navbar-item-s>
+            
 
     </template>
 
     <template slot="end">
       <b-navbar-item tag="div">
         <div class="buttons">
-          <b-button class="button is-light" icon-left="bug" tag="router-link" :to="{ path: '/rapporter' }"
+          <!--
+            <b-button class="button is-light" icon-left="bug" tag="router-link" :to="{ path: '/rapporter' }"
             exact-active-class="is-active">
             Rapporter en feil
           </b-button>
+          -->
           <b-button class="button is-primary" icon-left="alert-circle" tag="router-link"
             :to="{ path: '/om-tjenesten' }" exact-active-class="is-active">
             Om tjenesten
