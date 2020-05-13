@@ -15,9 +15,9 @@ import appInfo from '~/components/appInfo'
 
 export default {
   head: {
-    title: 'MittFravær - Lynrask utregning av udokumentert fravær',
+    title: 'Fraværskalkulatoren - MittFravær',
     meta: [
-      { hid: 'description', name: 'description', content: 'Beregn fraværet ditt på sekunder' }
+      { hid: 'description', name: 'description', content: 'Lynrask utregning av udokumentert fravær' }
     ],
     noscript: [
       { innerHTML: 'MittFravær gjør det enklere å finne ut hvor mange prosent fravær man har i det enkelte faget på VGS. I tillegg til å beregne hvor mye fravær man kan ha før man når 10-prosenten.', body: true }
