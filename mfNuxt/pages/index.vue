@@ -24,7 +24,6 @@ export default {
     ],
   },
   name: 'Forsiden',
-  
 
   components: {
     heroTopp,
