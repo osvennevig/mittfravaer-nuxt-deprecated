@@ -17,13 +17,13 @@
 
                     <h1 class="udokh1">Antall udokumenterte fraværstimer: </h1>
                     <b-field>
-                      <b-numberinput size="is-medium" v-model="udok" min="1">
+                      <b-numberinput alt="Antall udokumenterte fraværstimer:" size="is-medium" v-model="udok" min="1">
                       </b-numberinput>
                     </b-field>
 
                     <h1 class="fagh1">Antall timer i uken for gjeldende fag: </h1>
                     <b-field>
-                      <b-numberinput size="is-medium" v-model="fag" min="1">
+                      <b-numberinput alt="Antall timer i uken for gjeldende fag:" size="is-medium" v-model="fag" min="1">
                       </b-numberinput>
                     </b-field>
                   </div>
