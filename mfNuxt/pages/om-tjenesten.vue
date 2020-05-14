@@ -76,12 +76,7 @@ export default {
     noscript: [
       { innerHTML: 'MittFravær gjør det enklere å finne ut hvor mange prosent fravær man har i det enkelte faget på VGS. I tillegg til å beregne hvor mye fravær man kan ha før man når 10-prosenten.', body: true }
     ],
-    script: [
-      { src: '/head.js' },
-      // Supported since 1.0
-      { src: '/body.js', body: true },
-      { src: '/defer.js', defer: '' }
-    ]
+    
   },
   name: 'om-tjenesten',
 
