@@ -17,11 +17,11 @@
         <div class="column">
 
           <a href="https://facebook.com/mainly.no">
-            <b-icon icon="facebook" size="is-large" />
+            <b-icon icon="facebook" size="is-large" alt="Facebook" />
           </a>
 
           <a href="https://instagram.com/mittfravaer">
-            <b-icon icon="instagram" size="is-large" />
+            <b-icon icon="instagram" size="is-large" alt="Instagram" />
           </a>
 
         </div>
