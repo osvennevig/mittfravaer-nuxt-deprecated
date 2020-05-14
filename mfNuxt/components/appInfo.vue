@@ -21,7 +21,7 @@
               </div>
               </div>
               <div class="column is-half">
-                <img class="appInfoIMG" src="~assets/MF-Android-ios.png" alt="MittFravær App"><img>
+                <img class="appInfoIMG" src="~assets/MF-Android-ios.webp" alt="MittFravær App"><img>
               </div>
             </div>
           </div>
