@@ -5,8 +5,14 @@
                Beregn fraværet ditt på sekunder.
              </h1>
              <h2 class="subtitleBig">
-               Gjelder for høsten 2019 og våren 2020
+               Gjelder for høsten 2012 og våren 2021
              </h2>
+             <div class="containerWarning">
+             <b-message type="is-warning" has-icon>
+               NB! Fraværsreglene er endret midlertidig frem til 1.november på grunn av Covid 19 situasjonen. <br><a href="https://www.vg.no/nyheter/innenriks/i/mRG0L4/fravaersregler-endres-egenmelding-og-melding-fra-foresatte-gir-gyldig-fravaer"><b>Les mer på VG</b></a>
+            </b-message>
+             </div>
+
         </section>
     </div>
 </template>
@@ -32,5 +38,13 @@
   font-weight: 400;
   line-height: 1.25;
   word-break: break-word;
+}
+.containerWarning {
+  max-width: 700px;
+  flex-grow: 1;
+  margin: 0 auto;
+  position: relative;
+  width: auto;
+  padding-top: 1.5rem;
 }
 </style>
