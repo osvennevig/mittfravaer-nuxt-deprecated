@@ -5,7 +5,7 @@
                Beregn fraværet ditt på sekunder.
              </h1>
              <h2 class="subtitleBig">
-               Gjelder for høsten 2012 og våren 2021
+               Gjelder for høsten 2020 og våren 2021
              </h2>
              <div class="containerWarning">
              <b-message type="is-warning" has-icon>
