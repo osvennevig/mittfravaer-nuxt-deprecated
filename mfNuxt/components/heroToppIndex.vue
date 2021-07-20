@@ -1,15 +1,12 @@
 <template>
     <div class="heroTopp">
         <section class="sectionUtreg">
-             <h1 class="titleBig">
+             <h1 style="text-decoration: line-through;" class="titleBig">
                Beregn fraværet ditt på sekunder.
              </h1>
-             <h2 class="subtitleBig">
-               Gjelder for høsten 2020 og våren 2021
-             </h2>
              <div class="containerWarning">
-             <b-message type="is-warning" has-icon>
-               NB! Fraværsreglene er endret midlertidig frem til 1.november 2020 på grunn av Covid 19 situasjonen. <br><a href="https://www.vg.no/nyheter/innenriks/i/mRG0L4/fravaersregler-endres-egenmelding-og-melding-fra-foresatte-gir-gyldig-fravaer"><b>Les mer på VG</b></a>
+             <b-message type="is-error" has-icon>
+              MittFravær ble utviklet av en ungdomsbedrift på Dahlske VGS i 2018/2019. På grunn av endringer i fraværsgrensen er det ikke lengre behov for tjenesten. <br><a href="/app"><b>Bruk fraværskalkulatoren (utdatert)</b></a>
             </b-message>
              </div>
 

@@ -3,7 +3,7 @@
   <div class="heroTopp">
     <section class="section">
       <h1 class="titleBig">
-        Om Tjenesten
+        Om tjenesten
       </h1>
 
     </section>
@@ -37,7 +37,7 @@
         <footer class="card-footer">
           <p class="card-footer-item">
             <span>
-              Les hele artikkelen på <a
+              Les hele artikkelen hos <a
                 href="https://www.gat.no/nyheter/sikret-seg-to-forste-og-to-tredjeplasser-under-nm/">Grimstad
                 Adressetidende</a>
             </span>

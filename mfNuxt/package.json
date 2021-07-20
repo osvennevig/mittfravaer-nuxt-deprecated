@@ -12,7 +12,7 @@
     "test": "jest"
   },
   "dependencies": {
-    "nuxt": "^2.0.0",
+    "nuxt": "^2.15.7",
     "nuxt-buefy": "^0.3.2"
   },
   "devDependencies": {
