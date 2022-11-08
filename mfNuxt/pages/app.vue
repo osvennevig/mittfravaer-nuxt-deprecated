@@ -13,6 +13,18 @@ import footerBunn from '~/components/footerBunn'
 import utregning from '~/components/utregning'
 import appInfo from '~/components/appInfo'
 
+import Vue from 'vue'
+import { VuePlausible } from 'vue-plausible'
+
+Vue.use(VuePlausible, {
+  // see configuration section
+  domain: 'xn--mittfravr-n3a.no',
+  enableAutoPageviews: true, 
+  enableAutoOutboundTracking: true,
+  trackLocalhost: false
+  
+})
+
 export default {
   head: {
     title: 'Fraværskalkulatoren - MittFravær',

@@ -47,7 +47,17 @@ export default {
   /*
    ** Nuxt.js dev-modules
    */
-  buildModules: [],
+  buildModules: ["vue-plausible"],
+
+  plausible: {
+    // Use as fallback if no runtime config is available at runtime
+    domain: "xn--mittfravr-n3a.no"
+  },
+  publicRuntimeConfig: {
+    plausible: {
+      domain: "xn--mittfravr-n3a.no"
+    }
+  },
 
   /*
    ** Nuxt.js modules
