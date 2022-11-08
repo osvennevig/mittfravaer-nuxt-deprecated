@@ -5,7 +5,7 @@ export default {
    */
   head: {
     htmlAttrs: {
-      lang: "no"
+      lang: "no",
     },
     title: process.env.npm_package_name || "",
     meta: [
@@ -14,21 +14,22 @@ export default {
       {
         hid: "description",
         name: "description",
-        content: process.env.npm_package_description || ""
-      }
+        content: process.env.npm_package_description || "",
+      },
     ],
     link: [
       { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
       {
         rel: "stylesheet",
-        href:
-          "https://fonts.bunny.net/css?family=Work+Sans:400,600,700,800&display=swap"
-      }
-    ]
+        href: "https://fonts.bunny.net/css?family=Work+Sans:400,600,700,800&display=swap",
+      },
+    ],
   },
   generate: {
-    fallback: true
+    fallback: true,
   },
+
+  target: "static",
   /*
    ** Customize the progress-bar color
    */
@@ -46,16 +47,16 @@ export default {
   /*
    ** Nuxt.js dev-modules
    */
-  buildModules: ["vue-plausible"],
+  //buildModules: ["vue-plausible"],
 
   plausible: {
     // Use as fallback if no runtime config is available at runtime
-    domain: "xn--mittfravr-n3a.no"
+    domain: "xn--mittfravr-n3a.no",
   },
   publicRuntimeConfig: {
     plausible: {
-      domain: "xn--mittfravr-n3a.no"
-    }
+      domain: "xn--mittfravr-n3a.no",
+    },
   },
 
   /*
@@ -64,7 +65,7 @@ export default {
   modules: [
     // Doc: https://buefy.github.io/#/documentation
     "nuxt-buefy",
-    "vue-plausible"
+    "vue-plausible",
   ],
 
   /*
@@ -75,6 +76,6 @@ export default {
      ** You can extend webpack config here
      */
     plugins: [new webpack.IgnorePlugin(/^\.\/locale$/, /moment$/)],
-    extend(config, ctx) {}
-  }
+    extend(config, ctx) {},
+  },
 };
