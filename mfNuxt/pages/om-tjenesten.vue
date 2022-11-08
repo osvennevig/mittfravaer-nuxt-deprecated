@@ -19,7 +19,6 @@
             å beregne hvor mye fravær man kan ha før man når 10 prosenten.
             Tjenesten er gratis å bruke, og er laget av kvitér UB ved Dahlske videregående skole. Den driftes nå av
             selskapet Mainly.
-            Reklamebannere er satt inn for å kunne finansiere produktet og drive med videreutvikling.
           </h2>
         </div>
       </div>
@@ -73,10 +72,10 @@ import { VuePlausible } from 'vue-plausible'
 Vue.use(VuePlausible, {
   // see configuration section
   domain: 'xn--mittfravr-n3a.no',
-  enableAutoPageviews: true, 
-  enableAutoOutboundTracking: true,
+  //enableAutoPageviews: true, 
+  //enableAutoOutboundTracking: true,
   trackLocalhost: false
-  
+
 })
 
 export default {

@@ -13,10 +13,10 @@ import { VuePlausible } from 'vue-plausible'
 Vue.use(VuePlausible, {
   // see configuration section
   domain: 'xn--mittfravr-n3a.no',
-  enableAutoPageviews: true, 
-  enableAutoOutboundTracking: true,
+  //enableAutoPageviews: true, 
+  //enableAutoOutboundTracking: true,
   trackLocalhost: false
-  
+
 })
 
 export default {
