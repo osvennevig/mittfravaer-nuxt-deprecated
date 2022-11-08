@@ -63,7 +63,8 @@ export default {
    */
   modules: [
     // Doc: https://buefy.github.io/#/documentation
-    "nuxt-buefy"
+    "nuxt-buefy",
+    "vue-plausible"
   ],
 
   /*
