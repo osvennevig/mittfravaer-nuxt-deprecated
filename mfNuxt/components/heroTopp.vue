@@ -5,11 +5,11 @@
                Beregn fraværet ditt på sekunder.
              </h1>
              <h2 class="subtitleBig">
-               Gjelder for høsten 2020 og våren 2021
+               Gjelder for <b>høsten 2022</b> og <b>våren 2023</b>
              </h2>
              <div class="containerWarning">
-             <b-message type="is-warning" has-icon>
-               NB! Fraværsreglene er endret midlertidig frem til 1.november 2020 på grunn av Covid 19 situasjonen. <br><a href="https://www.vg.no/nyheter/innenriks/i/mRG0L4/fravaersregler-endres-egenmelding-og-melding-fra-foresatte-gir-gyldig-fravaer"><b>Les mer på VG</b></a>
+             <b-message type="is-success" >
+               MittFravær er nå oppdatert for 2022-2023.<br><a href="https://www.udir.no/regelverk-og-tilsyn/skole-og-opplaring/saksbehandling/fravar/fravar-i-videregaende/"><b>Les mer om fraværsgrensen på UDIR</b></a>
             </b-message>
              </div>
 

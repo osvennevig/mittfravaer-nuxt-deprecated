@@ -79,7 +79,7 @@ export default {
             } else if (bmi >= 9 && bmi < 15) {
               return  bmi.toFixed(2) + " 😭🥺";
             } else if (bmi >= 15) {
-              return  " wtf sorry as... 💩 Sonans?";
+              return  " 🤯 sorry as... Sonans?";
             }
             return "Juster på bryterne for å regne ut";
           }
@@ -163,7 +163,7 @@ export default {
 }
 
 .sectionUtreg {
-  padding: 3.5rem 1.5rem;
+  padding: 4rem 1.5rem;
 }
 
 .hero-body-Utreg {

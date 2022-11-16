@@ -11,7 +11,7 @@
 import heroTopp from '~/components/heroTopp'
 import footerBunn from '~/components/footerBunn'
 import utregning from '~/components/utregning'
-import appInfo from '~/components/appInfo'
+//import appInfo from '~/components/appInfo'
 
 import Vue from 'vue'
 import { VuePlausible } from 'vue-plausible'
@@ -41,7 +41,7 @@ export default {
     heroTopp,
     utregning,
     footerBunn,
-    appInfo,
+    //appInfo,
   }
 }
 </script>

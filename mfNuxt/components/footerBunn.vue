@@ -1,30 +1,23 @@
 <template>
 <footer class="footer">
   <div class="container">
-    <div class="columns is-vcentered is-multiline">
-      <div class="column is-one-third">
-        <div class="content has-text-centered">
+    <div class="columns is-vcentered is-multiline" style="  justify-content: center;
+  gap: 16px;
+}">
+      <div style="margin-bottom: 16px; margin-top: 16px;">
           <p>
-            <strong>MittFravær</strong> av <a href="https://mainly.no">Mainly</a>
-            | Org.nr. 922 878 889
+            <strong>MittFravær</strong> av <a href="https://www.svennevigflaaten.no/">Svennevig & Flaaten</a>
           </p>
-        </div>
       </div>
+      <!--
       <div class="column is-one-third">
-        <p class="supportStor"><strong> <a href="mailto:support@mainly.no">support@mainly.no </a></strong></p>
+        <p class="supportStor"><strong> <a href="mailto:hjelp@mainly.no">hjelp@mainly.no </a></strong></p>
       </div>
-      <div class="column is-one-third">
-        <div class="column">
-
-          <a href="https://facebook.com/mainly.no">
-            <b-icon icon="facebook" size="is-large" alt="Facebook" />
-          </a>
-
+      -->
+       <div style="margin-bottom: 16px; margin-top: 16px;">
           <a href="https://instagram.com/mittfravaer">
-            <b-icon icon="instagram" size="is-large" alt="Instagram" />
+            <b-icon icon="instagram" size="is-medium" alt="Instagram" />
           </a>
-
-        </div>
       </div>
 
     </div>
@@ -50,6 +43,6 @@ export default {
   padding-bottom: 3em;
 }
 .supportStor {
-  font-size: 2em;
+  font-size: 1.5em;
 }
 </style>

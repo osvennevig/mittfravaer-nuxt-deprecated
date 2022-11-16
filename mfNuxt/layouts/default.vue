@@ -11,7 +11,7 @@
         Lynrask utregning av udokumentert fravær
       </b-navbar-item-s>
        <b-navbar-item-s>
-        <b-tag type="is-success" outlined>Nytt design!</b-tag>
+       <!-- <b-tag type="is-default" outlined>Oppdatert for 2022</b-tag> -->
       </b-navbar-item-s>
             
 
@@ -77,6 +77,8 @@ export default {
 }
 .navbar {
   border-bottom: rgba(29, 35, 48, .15) solid 1px;
+  padding-top: 2px;
+  padding-bottom: 2px;
 }
 .is-active {
   color:aquamarine;

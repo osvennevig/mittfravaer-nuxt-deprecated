@@ -17,8 +17,13 @@
           <h2 class="subtitleBigLeft">
             MittFravær gjør det enklere å finne ut hvor mange prosent fravær man har i det enkelte faget. I tillegg til
             å beregne hvor mye fravær man kan ha før man når 10 prosenten.
-            Tjenesten er gratis å bruke, og er laget av kvitér UB ved Dahlske videregående skole. Den driftes nå av
-            selskapet Mainly.
+            <br/>
+            <br/>
+            Tjenesten er gratis å bruke, og ble laget av kvitér UB ved Dahlske videregående skole i 2018-2019. Den driftes nå av
+            selskapet Svennevig & Flaaten AS.
+            <br/>
+            <br/>
+            NB! På grunn av endringer i fraværsgrensen under Covid var tjenesten utilgjengelig i en periode fra 2020-2022.
           </h2>
         </div>
       </div>
@@ -45,13 +50,14 @@
       </div>
       <section class="section">
       <div class="container">
-    <div class="columns">
-    <div class="column">
-       <a href="https://www.nrk.no/sorlandet/vil-gi-bedre-fravaerskontroll-1.14305223"> <b-button style="background-color:#FF7052; color: #fff;" size="is-medium">NRK Sørlandet - TV reportasje 21.11</b-button></a>
+    <div class="rows">
+     
+    <div style="display: flex; flex-direction: column; gap: 16px; flex-wrap: wrap;">
+       <p class="subtitleBig">Andre lenker</p>
+       <a class="button is-primary" href="https://www.nrk.no/sorlandet/vil-gi-bedre-fravaerskontroll-1.14305223" size="is-large">NRK Sørlandet - TV reportasje</a>
+        <a class="button is-primary" href="https://radio.nrk.no/serie/marius/MYNF47010618/21-11-2018?fbclid=IwAR0Dk0xqfg-96TYUx2Kdyf2_5LGkNo-Qll6aMsPar7q21a2mHowjOrItoCY#t=1h59m42.36s" size="is-large">NRK P3 - Radio P3nyheter 16:00</a>
     </div>
-      <div class="column">
-       <a href="https://radio.nrk.no/serie/marius/MYNF47010618/21-11-2018?fbclid=IwAR0Dk0xqfg-96TYUx2Kdyf2_5LGkNo-Qll6aMsPar7q21a2mHowjOrItoCY#t=1h59m42.36s"> <b-button style="background-color:#FF7052; color: #fff;" size="is-medium">NRK P3 - Radio P3nyheter 16:00</b-button></a>
-    </div>
+
       </div>
       </div>
 </section>
@@ -102,6 +108,10 @@ export default {
 .heroTopp {
     background-color: whitesmoke;
 }
+.card {
+  border-radius: 8px;
+  overflow: hidden;
+}
 .card-content {
   background-color: #7442BB;
 }
@@ -111,9 +121,9 @@ export default {
 }
 .titleBigQuote {
   color: #fff;
-  font-size: 1.6rem;
+  font-size: 1.2rem;
   font-weight: 600;
-  line-height: 1.25;
+  line-height: 1.5;
   word-break: break-word;
   padding-bottom:5px;
 }
@@ -128,7 +138,7 @@ export default {
 }
 .subtitleBig {
   color: #4a4a4a;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   font-weight: 400;
   line-height: 1.25;
   word-break: break-word;
@@ -137,9 +147,10 @@ export default {
   color: #4a4a4a;
   font-size: 1.2rem;
   font-weight: 400;
-  line-height: 1.25;
+  line-height: 1.5;
   word-break: break-word;
   text-align: left;
+  letter-spacing: -0.3px;
 }
 
 .subtitleLeft {
