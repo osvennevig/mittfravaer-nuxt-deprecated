@@ -10,6 +10,8 @@
              <div class="containerWarning">
              <b-message type="is-success" >
                MittFravær er nå oppdatert for 2022-2023.<br><a href="https://www.udir.no/regelverk-og-tilsyn/skole-og-opplaring/saksbehandling/fravar/fravar-i-videregaende/"><b>Les mer om fraværsgrensen på UDIR</b></a>
+              <br><a href="https://www.ung.no/utdanning/vgs/2816_Reglene_for_fravær_på_videregående_skole.html"><b>Få svar på ofte stilte spørsmål på UNG.no</b></a>
+
             </b-message>
              </div>
 
