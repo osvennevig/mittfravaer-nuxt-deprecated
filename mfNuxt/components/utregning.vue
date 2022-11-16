@@ -71,13 +71,13 @@ export default {
             if (bmi < 3) {
               return  bmi.toFixed(2) + " 😍🤓";
             } else if (bmi >= 3 && bmi < 5) {
-              return  bmi.toFixed(2) + " 🤨🥱";
+              return  bmi.toFixed(2) + " 😌🥱";
             } else if (bmi >= 5 && bmi < 7) {
-              return  bmi.toFixed(2) + " 😫😩";
+              return  bmi.toFixed(2) + " 😫🤨";
             } else if (bmi >= 7 && bmi < 9) {
-              return  bmi.toFixed(2) + " 😭🥺";
+              return  bmi.toFixed(2) + " 😳🥺";
             } else if (bmi >= 9 && bmi < 15) {
-              return  bmi.toFixed(2) + " 😭🥺";
+              return  bmi.toFixed(2) + " 😭😭";
             } else if (bmi >= 15) {
               return  " 🤯 sorry as... Sonans?";
             }
